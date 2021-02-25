@@ -1968,10 +1968,7 @@ public class GT_MachineRecipeLoader implements Runnable {
         this.addPyrometallurgicalRecipes();
         this.addPolybenzimidazoleRecipes();
         this.addCircuitRecipes();
-<<<<<<< HEAD
         this.addBlastRecipes();
-=======
->>>>>>> 5f298d892 (began re-adding recipes moved to coremod)
     }
 
     public void addProcess(ItemStack tCrop, Materials aMaterial, int chance, boolean aMainOutput) {
@@ -2407,7 +2404,7 @@ public class GT_MachineRecipeLoader implements Runnable {
         //Dynamo Hatches Luv-UV
         GT_Values.RA.addAssemblylineRecipe(ItemList.Hatch_Dynamo_IV.get(1, new Object(){}),72000,new Object[]{
                         ItemList.Hull_LuV.get(1L, new Object(){}),
-                        GT_OreDictUnificator.get(OrePrefixes.spring, Materials.Tetraindiumditindibariumtitaniumheptacoppertetrakaidekaoxid, 2L),
+                        GT_OreDictUnificator.get(OrePrefixes.stickLong, Materials.SuperconductorLuV, 4L),
                         ItemList.Circuit_Chip_UHPIC.get(2L,  new Object(){}),
                         new Object[]{OrePrefixes.circuit.get(Materials.Master), 2},
                         ItemList.LuV_Coil.get(2L, new Object(){}),
@@ -2489,8 +2486,8 @@ public class GT_MachineRecipeLoader implements Runnable {
             		new Object[]{OrePrefixes.circuit.get(Materials.Ultimate), 1},
             		new Object[]{OrePrefixes.circuit.get(Materials.Ultimate), 1},
             		new Object[]{OrePrefixes.circuit.get(Materials.Ultimate), 1},
-            		GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.NaquadahAlloy, 4L),
-            		GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Osmiridium, 4L),
+            		GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.NaquadahAlloy, 4L),
+            		GT_OreDictUnificator.get(OrePrefixes.plateDouble, Materials.Osmiridium, 4L),
             		ItemList.Field_Generator_LuV.get(2),
             		ItemList.Circuit_Wafer_UHPIC.get(32),
             		GT_OreDictUnificator.get(OrePrefixes.wireGt01, Materials.SuperconductorLuV, 32),
@@ -2505,7 +2502,7 @@ public class GT_MachineRecipeLoader implements Runnable {
             		new Object[]{OrePrefixes.circuit.get(Materials.Superconductor), 1},
             		new Object[]{OrePrefixes.circuit.get(Materials.Superconductor), 1},
             		new Object[]{OrePrefixes.circuit.get(Materials.Superconductor), 1},
-            		GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Europium, 4L),
+            		GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Europium, 8L),
             		ItemList.Field_Generator_ZPM.get(2),
             		ItemList.Circuit_Wafer_PPIC.get(48),
             		GT_OreDictUnificator.get(OrePrefixes.wireGt02, Materials.SuperconductorZPM, 32),
@@ -2520,7 +2517,7 @@ public class GT_MachineRecipeLoader implements Runnable {
                     new Object[]{OrePrefixes.circuit.get(Materials.Infinite), 1},
                     new Object[]{OrePrefixes.circuit.get(Materials.Infinite), 1},
                     new Object[]{OrePrefixes.circuit.get(Materials.Infinite), 1},
-            		GT_OreDictUnificator.get(OrePrefixes.plateDense, Materials.Americium, 4L),
+            		GT_OreDictUnificator.get(OrePrefixes.plate, Materials.Americium, 8L),
             		ItemList.Field_Generator_UV.get(2),
             		ItemList.Circuit_Wafer_QPIC.get(64),
             		GT_OreDictUnificator.get(OrePrefixes.wireGt04, Materials.SuperconductorUV, 32),
